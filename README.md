@@ -1,130 +1,43 @@
-# Code Companion
+🐛 Universal Code Debugger — AI-Powered Debugging Assistant
 
-Create a full-stack web application called "Universal Code Debugger".
+🔗 Live demo: [add your live URL here — confirm it resolves before publishing]
 
-Goal:
+An AI-powered debugging tool that analyzes pasted code across multiple languages, identifies errors with line-level precision, and explains the fix in plain language.
 
-A web app where users can paste code in different programming languages and get debugging help, error explanations, and suggested fixes.
+✨ What it actually does
 
-Core Features:
+🌐 Multi-language support. Python, JavaScript, TypeScript, C, C++, Java, Go, Rust, and PHP, selectable from a language dropdown.
 
-1. Code Editor
+📝 In-browser code editor with syntax highlighting and line numbers.
 
-- Use Monaco Editor or CodeMirror
+🔍 One-click debugging. Clicking "Debug" analyzes the pasted code and returns: the actual output (or the error), a count of errors found, the specific line and error type (e.g. "L2 · syntax · Invalid syntax 'efeg' at end of line"), and a plain-language debug explanation of what's wrong and how to fix it.
 
-- Syntax highlighting
+✅ Apply Fix, Copy, and Download actions on the result, so the corrected code can be used immediately.
 
-- Language selector (Python, JavaScript, C, C++, Java, Go, Rust, PHP)
+🔄 Reset to clear the editor and start over.
 
-2. Code Execution
+🛠️ Tech stack
 
-- Run the code securely in a sandbox environment
+[Fill in — frontend framework, which LLM/API powers the debugging analysis, hosting]
 
-- Show console output and errors
+⚙️ Running locally
 
-3. Debugging System
+git clone https://github.com/mohdowaisnajmuddin/universalcodedebugger.git
 
-- Detect syntax errors and runtime errors
+cd universalcodedebugger
 
-- Show line numbers where the error occurs
+npm install
 
-- Provide explanation of the error
-
-- Suggest fixed code
-
-4. AI Debug Assistant
-
-- When an error occurs, analyze the code and error
-
-- Explain the bug in simple terms
-
-- Provide a corrected version of the code
-
-5. UI
-
-- Modern interface
-
-- Dark/light mode
-
-- Split layout:
-
-  Left side → code editor
-
-  Right side → output + debugging explanation
-
-Tech Stack:
-
-Frontend:
-
-- React
-
-- Tailwind CSS
-
-- Monaco Editor
-
-Backend:
-
-- Node.js with Express
-
-Execution Engine:
-
-- Use Docker containers or isolated sandboxes to run code safely
-
-API Routes:
-
-POST /run
-
-→ runs the code
-
-POST /debug
-
-→ returns debugging explanation and suggested fix
-
-Security:
-
-- Prevent infinite loops
-
-- Time limit for execution
-
-- Memory limits
-
-Extra Features:
-
-- Save snippets
-
-- Share debug sessions
-
-- Download corrected code
-
-Deliverables:
-
-1. Full project structure
-
-2. Frontend + backend code
-
-3. Instructions to run the app
-
-4. Example debugging workflow
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://aicode-debugger.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/a9db50c2-7201-43ad-b04d-53a99abad69c).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
 npm run dev
-```
+
+📝 Notes
+If this tool calls an LLM API to generate the debug explanation, document which model/API and any rate limits or cost considerations here — that's a legitimate detail worth being specific about rather than vague on.
+
+📸 Screenshots
+
+![Uploading Screenshot 2026-09-14 184938.png…]()
+
+
+📄 License
+
+[Add a license, e.g. MIT]
