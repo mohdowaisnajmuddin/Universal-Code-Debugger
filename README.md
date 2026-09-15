@@ -22,7 +22,9 @@ An AI-powered debugging tool that analyzes pasted code across multiple languages
 
 ⚙️ Running locally
 
-git clone https://github.com/mohdowaisnajmuddin/universal-code-debugger.git
+git clone 
+
+https://github.com/yourself/universal-code-debugger.git
 
 cd universalcodedebugger
 
