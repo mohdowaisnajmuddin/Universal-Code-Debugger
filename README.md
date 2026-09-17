@@ -1,6 +1,6 @@
 🐛 Universal Code Debugger — AI-Powered Debugging Assistant
 
-🔗 Live demo: [add your live URL here — confirm it resolves before publishing]
+🔗 Live demo: https://universalcodedebugger.vercel.app/
 
 An AI-powered debugging tool that analyzes pasted code across multiple languages, identifies errors with line-level precision, and explains the fix in plain language.
 
